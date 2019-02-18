@@ -12,7 +12,6 @@
 		B82E66D12208BF7C00036F58 /* Assignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B82E66CF2208BF7C00036F58 /* Assignment.xcdatamodeld */; };
 		B82E66D32208BF8000036F58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B82E66D22208BF8000036F58 /* Assets.xcassets */; };
 		B82E66D62208BF8000036F58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B82E66D42208BF8000036F58 /* LaunchScreen.storyboard */; };
-		B82E66E12208BF8000036F58 /* AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82E66E02208BF8000036F58 /* AssignmentTests.swift */; };
 		B82E66EC2208BF8000036F58 /* AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82E66EB2208BF8000036F58 /* AssignmentUITests.swift */; };
 		B82E66FD2208C24600036F58 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82E66FA2208C24500036F58 /* ServiceManager.swift */; };
 		B82E66FE2208C24600036F58 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82E66FB2208C24500036F58 /* SessionManager.swift */; };
@@ -22,7 +21,6 @@
 		B88C5F7B220C035800E57E19 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88C5F7A220C035800E57E19 /* AppFont.swift */; };
 		B88C5F7E220C04F200E57E19 /* MobileDataUsageInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88C5F7D220C04F200E57E19 /* MobileDataUsageInfoTests.swift */; };
 		B88C5F80220C45C400E57E19 /* MobileDataUsageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88C5F7F220C45C400E57E19 /* MobileDataUsageViewControllerTests.swift */; };
-		B88C5F82220C48D500E57E19 /* MobileDataUsageViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88C5F81220C48D500E57E19 /* MobileDataUsageViewModelTests.swift */; };
 		B88E630A22095CE9009CFDBE /* ServiceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88E630922095CE9009CFDBE /* ServiceHelper.swift */; };
 		B88E630D220960CE009CFDBE /* MobileDataUsageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88E630C220960CE009CFDBE /* MobileDataUsageViewController.swift */; };
 		B88E631022096127009CFDBE /* MobileDataUsageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88E630F22096127009CFDBE /* MobileDataUsageViewModel.swift */; };
@@ -61,7 +59,6 @@
 		B82E66D52208BF8000036F58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B82E66D72208BF8000036F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B82E66DC2208BF8000036F58 /* AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B82E66E02208BF8000036F58 /* AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentTests.swift; sourceTree = "<group>"; };
 		B82E66E22208BF8000036F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B82E66E72208BF8000036F58 /* AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82E66EB2208BF8000036F58 /* AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentUITests.swift; sourceTree = "<group>"; };
@@ -74,7 +71,6 @@
 		B88C5F7A220C035800E57E19 /* AppFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
 		B88C5F7D220C04F200E57E19 /* MobileDataUsageInfoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataUsageInfoTests.swift; sourceTree = "<group>"; };
 		B88C5F7F220C45C400E57E19 /* MobileDataUsageViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataUsageViewControllerTests.swift; sourceTree = "<group>"; };
-		B88C5F81220C48D500E57E19 /* MobileDataUsageViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataUsageViewModelTests.swift; sourceTree = "<group>"; };
 		B88E630922095CE9009CFDBE /* ServiceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceHelper.swift; sourceTree = "<group>"; };
 		B88E630C220960CE009CFDBE /* MobileDataUsageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataUsageViewController.swift; sourceTree = "<group>"; };
 		B88E630F22096127009CFDBE /* MobileDataUsageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDataUsageViewModel.swift; sourceTree = "<group>"; };
@@ -154,7 +150,6 @@
 			isa = PBXGroup;
 			children = (
 				B88C5F7C220C04B900E57E19 /* MobileDataUsageTests */,
-				B82E66E02208BF8000036F58 /* AssignmentTests.swift */,
 				B82E66E22208BF8000036F58 /* Info.plist */,
 			);
 			path = AssignmentTests;
@@ -204,7 +199,6 @@
 			children = (
 				B88C5F7D220C04F200E57E19 /* MobileDataUsageInfoTests.swift */,
 				B88C5F7F220C45C400E57E19 /* MobileDataUsageViewControllerTests.swift */,
-				B88C5F81220C48D500E57E19 /* MobileDataUsageViewModelTests.swift */,
 			);
 			path = MobileDataUsageTests;
 			sourceTree = "<group>";
@@ -410,8 +404,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B88C5F82220C48D500E57E19 /* MobileDataUsageViewModelTests.swift in Sources */,
-				B82E66E12208BF8000036F58 /* AssignmentTests.swift in Sources */,
 				B88C5F7E220C04F200E57E19 /* MobileDataUsageInfoTests.swift in Sources */,
 				B88C5F80220C45C400E57E19 /* MobileDataUsageViewControllerTests.swift in Sources */,
 			);
